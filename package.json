@@ -1,0 +1,16 @@
+{
+  "name": "jest-roots-bug",
+  "version": "1.0.0",
+  "description": "Jest roots prop bug",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "roots": ["notExist", "exist"]
+  },
+  "dependencies": {
+    "jest": "22.3.0"
+  }
+}
